@@ -1,0 +1,16 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-column-gap: 5px;
+    grid-row-gap :  5px;
+}
+
+.child{
+    background-color: brown;
+}
